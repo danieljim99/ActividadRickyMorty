@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Character {
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(80, 80, 80);
+  cursor: pointer;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.Image {
+  border: 1px solid black;
+  display: flex;
+  align-self: center;
+  width: 80%;
+}
+
+.FilterBox {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.SearchBar {
+  width: 400px;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.CharacterMatrix {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.Header {
+  position: sticky;
+  top: 0px;
+  height: fit-content;
+  width: 30%;
+  margin-right: 10px;
+  display: flex;
+  align-content: flex-end;
+  flex-flow: column wrap-reverse;
+}
+
+.Body {
+  display: flex;
+  justify-content: flex-start;
+}
